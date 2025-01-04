@@ -1,32 +1,28 @@
-# Hastane Otomasyonu 🏥
+# Hospital Automation 🏥
 
-Bu proje, bir hastane otomasyon sistemi uygulamasıdır. Uygulama, sekreter, doktor ve yönetici rollerine özel arayüzler sağlayarak kullanıcıların kolay bir şekilde hasta randevu işlemleri, doktor kayıtları ve yönetim işlevlerini gerçekleştirmesini sağlar.
+This project is a hospital automation system application. The app provides user interfaces for **secretaries**, **doctors**, and **administrators**, allowing them to easily manage patient appointments, doctor records, and administrative tasks.
 
-## Özellikler
+## Features
 
-- **Sekreter Modülü:**
-  - Hasta bilgilerini kaydetme ve düzenleme
-  - Bölüm ve doktor seçimi yaparak randevu oluşturma
-  - Randevu listesi görüntüleme ve düzenleme
-  - Tüm randevuları temizleme
+- **Secretary Module:**
+  - Register and edit patient information
+  - Create appointments by selecting departments and doctors
+  - View and edit appointment list
+  - Clear all appointments
 
-- **Doktor Modülü:**
-  - Hasta bilgilerini görüntüleme ve belirtileri girme
-  - Yatış bilgisi ve ilaç önerisi kaydetme
-  - Hasta için özel kod oluşturma
+- **Doctor Module:**
+  - View patient information and input symptoms
+  - Record admission details and prescribe medications
+  - Generate a unique code for each patient
 
-- **Yönetici Modülü:**
-  - Kullanıcı ve sistem yönetimi (Geliştirilmeye açık)
+- **Administrator Module:**
+  - Manage users and system settings _(Under development)_
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
-- **Python**: Projenin temel programlama dili
-- **Tkinter**: Masaüstü kullanıcı arayüzü tasarımı
-- **Random ve String**: Kod oluşturma işlemleri için kullanılmıştır
+- **Python**: The main programming language for the project
+- **Tkinter**: Desktop GUI design
+- **Random and String**: Used for code generation
 
-## Kurulum
 
-2. **Depoyu Klonlayın**  
-   ```bash
-   git clone https://github.com/kullanıcı_adı/hastane-otomasyonu.git
-   cd hastane-otomasyonu
+
